@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WoodenAPI-S", "WoodenAPI-S\WoodenAPI-S.csproj", "{AD35BA54-29B8-4FFD-986E-144DF6AFF363}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD35BA54-29B8-4FFD-986E-144DF6AFF363}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD35BA54-29B8-4FFD-986E-144DF6AFF363}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD35BA54-29B8-4FFD-986E-144DF6AFF363}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD35BA54-29B8-4FFD-986E-144DF6AFF363}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A065EAB-B2ED-4AA6-9B0E-5CA5AE0B1915}
+	EndGlobalSection
+EndGlobal
