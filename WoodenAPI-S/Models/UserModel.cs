@@ -13,5 +13,6 @@ namespace WoodenAPI_S.Models
         public string MiddleName { get; set; }
         public string LastName { get; set; }
         public string PhoneNumber { get; set; }
+        public string Role { get; set; }
     }
 }
