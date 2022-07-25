@@ -102,7 +102,7 @@ namespace WoodenAPI_S.Controllers
                 {
                     authClaims.Add(new Claim(ClaimTypes.Role, userRole));
                 }
-                var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Secret"]));
+                var authSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:SecretKey"]));
 
                 var token = new JwtSecurityToken(
                     issuer: _configuration["JWT:ValidIssuer"],
@@ -120,12 +120,10 @@ namespace WoodenAPI_S.Controllers
             }
             return Unauthorized();
         }
-
-
       
         [HttpGet]
         [Route("GetStudentList")]
-        public async  Task<IActionResult> GetStudentList()
+        public IActionResult GetStudentList()
         {
             UserModel userModel = new UserModel()
             {
